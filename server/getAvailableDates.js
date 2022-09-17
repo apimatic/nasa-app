@@ -1,19 +1,9 @@
-import { Client, NaturalColorController } from 'nasa-epic-apilib';
+//STEP 1: Copy the entire code sample from the Portal here
 
-const client = new Client({
-  timeout: 0,
-})
-const naturalColorController = new NaturalColorController(client);
-
-
-// get the latest image date
 const getAvailableDates = async () => {
-  try {
-    const { result } = await naturalColorController.getAllAvailableDates();
-    return result[0].date;
-  } catch(error) {
-   console.log(error)
-  }
+  //STEP 2: Move the try-catch statement from the code sample copied in STEP 1 here
 }
+
+//return result[0].date; 
 
 export default getAvailableDates;
