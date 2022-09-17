@@ -6,7 +6,7 @@ const client = new Client({
 const naturalColorController = new NaturalColorController(client);
 
 const gridColumns = 2;
-const imageQuality = 'thumbs';
+const imageQuality = 'jpg';
 
 const getCombinedImages = async (date) => {
   try {
