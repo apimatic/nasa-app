@@ -88,18 +88,18 @@
   margin: auto;
 }
 .error {
-  color:red;
+  color: red;
   font-size: 12px;
 }
 .description {
   padding: 10%;
 }
-.disclaimer{
+.disclaimer {
   padding-top: 2px;
   font-size: 12px;
   color: red;
 }
-.info{
+.info {
   padding-top: 2px;
   font-size: 12px;
   color: yellow;
