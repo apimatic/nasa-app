@@ -2,8 +2,8 @@
 
 const getAvailableDates = async () => {
   //STEP 2: Move the try-catch statement from the code sample copied in STEP 1 here
-}
+};
 
-//return result[0].date; 
+//return result[0].date;
 
 export default getAvailableDates;
