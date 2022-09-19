@@ -17,6 +17,7 @@ function Home() {
   const isValidEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
   const validateEmail = (e) => {
     setEmail(e.target.value);
+    setError(null);
   };
   const handleEmail = async (e) => {
     setEmail("");
